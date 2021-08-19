@@ -20,7 +20,7 @@ var binWall1, binWall2;
 var btn1;
 
 function setup() {
-  createCanvas(width,height);
+  createCanvas(windowWidth,windowHeight);
   console.log(width);
   engine = Engine.create();
   world = engine.world;
